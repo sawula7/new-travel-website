@@ -3,18 +3,19 @@
 @theme {
   --font-sans: var(--font-inter), sans-serif;
   --font-playfair: var(--font-playfair-display), serif;
-  --color-gold: #C8A96E;
+  --color-primary: #2EC98A;
+  --color-teal: #26C8C6;
 }
 
 :root {
   --font-inter: 'Inter', sans-serif;
   --font-playfair-display: 'Playfair Display', serif;
-  --gold: #C8A96E;
-  --dark-bg: #0D1117;
-  --card-bg: #161B22;
-  --text: #E6EDF3;
-  --muted: #8B949E;
-  --accent-teal: #39D353;
+  --bg: #FFFFFF;
+  --bg-alt: #F7FDFB;
+  --text: #1A2B2B;
+  --muted: #6B7B7B;
+  --border: #E2F5F0;
+  --accent-dark: #1DA874;
 }
 
 html {
@@ -29,19 +30,19 @@ body {
   .font-playfair {
     font-family: var(--font-playfair-display), serif;
   }
-  .text-gold {
-    color: #C8A96E;
+  .text-primary {
+    color: #2EC98A;
   }
-  .bg-gold {
-    background-color: #C8A96E;
+  .bg-primary {
+    background-color: #2EC98A;
   }
-  .border-gold {
-    border-color: #C8A96E;
+  .border-primary {
+    border-color: #2EC98A;
   }
   .glass {
-    background: rgba(22, 27, 34, 0.7);
+    background: rgba(255, 255, 255, 0.8);
     backdrop-filter: blur(12px);
     -webkit-backdrop-filter: blur(12px);
-    border: 1px solid rgba(200, 169, 110, 0.15);
+    border: 1px solid rgba(46, 201, 138, 0.15);
   }
 }
