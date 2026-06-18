@@ -57,11 +57,11 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-24 px-6 bg-white">
+    <section className="py-32 px-6 bg-[#F7FDFB]">
       <div className="max-w-7xl mx-auto">
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <span className="text-[#2EC98A] text-sm tracking-widest uppercase font-medium">Why Travel with Us</span>
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-[#1A2B2B] mt-3 mb-4">
+          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-[#1A2B2B] mt-3 mb-4">
             The Ceylon Paradise Difference
           </h2>
           <p className="text-[#6B7B7B] max-w-2xl mx-auto">

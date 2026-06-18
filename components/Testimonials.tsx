@@ -39,13 +39,13 @@ function Stars({ n }: { n: number }) {
 
 export default function Testimonials() {
   return (
-    <section className="py-24 bg-[#F7FDFB] relative overflow-hidden">
+    <section className="py-32 bg-white relative overflow-hidden">
       <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-2xl h-px bg-gradient-to-r from-transparent via-[#2EC98A]/30 to-transparent" />
 
       <div className="max-w-7xl mx-auto px-6">
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <span className="text-[#2EC98A] text-sm tracking-widest uppercase font-medium">Real Stories</span>
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-[#1A2B2B] mt-3 mb-4">
+          <h2 className="font-playfair text-5xl md:text-6xl font-bold text-[#1A2B2B] mt-3 mb-4">
             Voices of Our Travelers
           </h2>
         </div>
