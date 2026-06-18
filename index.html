@@ -80,24 +80,9 @@
       height: 72px;
     }
 
-    /* CPH Logo (inline SVG + text) */
-    .logo { display: flex; align-items: center; gap: 10px; }
-    .logo-svg { width: 48px; height: 58px; flex-shrink: 0; }
-    .logo-words { line-height: 1.1; }
-    .logo-cph {
-      font-family: var(--font-head); font-size: 22px; font-weight: 700;
-      background: var(--grad-text);
-      -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text;
-      display: block;
-    }
-    .logo-full {
-      font-family: var(--font-script); font-size: 13px; color: var(--green-dark);
-      display: block; line-height: 1;
-    }
-    .logo-sub {
-      font-size: 8.5px; letter-spacing: 3px; text-transform: uppercase;
-      color: var(--soft); display: block; margin-top: 1px;
-    }
+    /* Logo */
+    .logo { display: flex; align-items: center; }
+    .logo-img { height: 56px; width: auto; display: block; object-fit: contain; }
 
     .nav-menu { display: flex; gap: 2px; align-items: center; }
     .nav-menu > li { position: relative; }
@@ -681,33 +666,8 @@
 <nav>
   <div class="container nav-inner">
 
-    <!-- CPH Logo (inline SVG of Sri Lanka map) -->
     <a href="#" class="logo">
-      <svg class="logo-svg" viewBox="0 0 90 110" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <defs>
-          <linearGradient id="lkGrad" x1="0" y1="0" x2="90" y2="110" gradientUnits="userSpaceOnUse">
-            <stop offset="0%" stop-color="#3dffa0"/>
-            <stop offset="100%" stop-color="#26c8c6"/>
-          </linearGradient>
-        </defs>
-        <!-- Sri Lanka map outline (simplified) -->
-        <path d="M52 4 C56 2, 62 5, 65 10 C70 16, 68 22, 72 28 C76 34, 78 40, 76 47
-                 C74 54, 70 59, 72 66 C74 72, 76 78, 73 84 C70 90, 64 94, 58 97
-                 C52 100, 45 101, 39 98 C33 95, 28 89, 26 83 C24 77, 26 70, 24 63
-                 C22 56, 18 50, 18 43 C18 36, 20 28, 24 22 C28 16, 34 10, 40 7 Z"
-              stroke="url(#lkGrad)" stroke-width="3" fill="none" stroke-linejoin="round"/>
-        <!-- Jaffna Peninsula hint -->
-        <path d="M52 4 C50 1, 46 0, 44 2 C40 4, 38 7, 40 7"
-              stroke="url(#lkGrad)" stroke-width="2.5" fill="none" stroke-linecap="round"/>
-        <!-- CPH letters inside -->
-        <text x="28" y="62" font-family="Georgia, serif" font-size="28" font-weight="700"
-              fill="url(#lkGrad)" letter-spacing="0">CPH</text>
-      </svg>
-      <div class="logo-words">
-        <span class="logo-cph">Ceylon Paradise</span>
-        <span class="logo-full">Holidays</span>
-        <span class="logo-sub">Private Limited</span>
-      </div>
+      <img src="logo.jpeg" alt="Ceylon Paradise Holidays" class="logo-img" />
     </a>
 
     <ul class="nav-menu">
