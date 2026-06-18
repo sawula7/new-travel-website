@@ -11,13 +11,13 @@ const categories = [
 
 export default function TourCategories() {
   return (
-    <section className="py-24 px-6 max-w-7xl mx-auto">
+    <section className="py-24 px-6 max-w-7xl mx-auto bg-white">
       <div className="text-center mb-16">
-        <span className="text-[#C8A96E] text-sm tracking-widest uppercase font-medium">Explore Sri Lanka</span>
-        <h2 className="font-playfair text-4xl md:text-5xl font-bold text-white mt-3 mb-4">
+        <span className="text-[#2EC98A] text-sm tracking-widest uppercase font-medium">Explore Sri Lanka</span>
+        <h2 className="font-playfair text-4xl md:text-5xl font-bold text-[#1A2B2B] mt-3 mb-4">
           Tour Categories
         </h2>
-        <p className="text-[#8B949E] max-w-2xl mx-auto">
+        <p className="text-[#6B7B7B] max-w-2xl mx-auto">
           From ancient temples to pristine beaches, choose your perfect Sri Lankan adventure
         </p>
       </div>
@@ -34,18 +34,18 @@ export default function TourCategories() {
               fill
               className="object-cover transition-transform duration-700 group-hover:scale-110"
             />
-            <div className="absolute inset-0 bg-gradient-to-t from-[#0D1117]/90 via-[#0D1117]/30 to-transparent" />
-            <div className="absolute inset-0 bg-[#C8A96E]/0 group-hover:bg-[#C8A96E]/10 transition-colors duration-500" />
+            <div className="absolute inset-0 bg-gradient-to-t from-[#1A2B2B]/90 via-[#1A2B2B]/30 to-transparent" />
+            <div className="absolute inset-0 bg-[#2EC98A]/0 group-hover:bg-[#2EC98A]/10 transition-colors duration-500" />
 
             <div className="absolute bottom-0 left-0 right-0 p-5">
               <div className="flex items-end justify-between">
                 <div>
                   <span className="text-2xl mb-2 block">{cat.icon}</span>
                   <h3 className="text-white font-semibold text-lg leading-tight">{cat.name}</h3>
-                  <span className="text-[#C8A96E] text-sm">{cat.count}</span>
+                  <span className="text-[#2EC98A] text-sm">{cat.count}</span>
                 </div>
-                <div className="w-9 h-9 rounded-full border border-[#C8A96E]/50 flex items-center justify-center group-hover:bg-[#C8A96E] group-hover:border-[#C8A96E] transition-all duration-300">
-                  <svg className="w-4 h-4 text-[#C8A96E] group-hover:text-[#0D1117] transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <div className="w-9 h-9 rounded-full border border-[#2EC98A]/50 flex items-center justify-center group-hover:bg-[#2EC98A] group-hover:border-[#2EC98A] transition-all duration-300">
+                  <svg className="w-4 h-4 text-[#2EC98A] group-hover:text-white transition-colors" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17 8l4 4m0 0l-4 4m4-4H3" />
                   </svg>
                 </div>

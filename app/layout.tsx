@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" className={`${inter.variable} ${playfair.variable}`}>
-      <body className="bg-[#0D1117] text-[#E6EDF3] font-sans">{children}</body>
+      <body className="bg-white text-[#1A2B2B] font-sans">{children}</body>
     </html>
   );
 }
