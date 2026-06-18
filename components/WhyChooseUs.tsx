@@ -57,15 +57,15 @@ const features = [
 
 export default function WhyChooseUs() {
   return (
-    <section className="py-24 px-6">
+    <section className="py-24 px-6 bg-white">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <span className="text-[#C8A96E] text-sm tracking-widest uppercase font-medium">Why Travel with Us</span>
-          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-white mt-3 mb-4">
-            The Ceylon Journeys Difference
+          <span className="text-[#2EC98A] text-sm tracking-widest uppercase font-medium">Why Travel with Us</span>
+          <h2 className="font-playfair text-4xl md:text-5xl font-bold text-[#1A2B2B] mt-3 mb-4">
+            The Ceylon Paradise Difference
           </h2>
-          <p className="text-[#8B949E] max-w-2xl mx-auto">
-            We don't just plan trips — we create memories that last a lifetime
+          <p className="text-[#6B7B7B] max-w-2xl mx-auto">
+            We don&apos;t just plan trips — we create memories that last a lifetime
           </p>
         </div>
 
@@ -73,13 +73,13 @@ export default function WhyChooseUs() {
           {features.map((f, i) => (
             <div
               key={i}
-              className="group p-7 rounded-2xl border border-white/5 hover:border-[#C8A96E]/30 bg-[#161B22]/60 hover:bg-[#161B22] transition-all duration-500 hover:-translate-y-1"
+              className="group p-7 rounded-2xl border border-[#E2F5F0] hover:border-[#2EC98A]/30 bg-[#F7FDFB] hover:bg-white transition-all duration-500 hover:-translate-y-1 shadow-sm hover:shadow-md"
             >
-              <div className="w-14 h-14 rounded-xl bg-[#C8A96E]/10 border border-[#C8A96E]/20 flex items-center justify-center text-[#C8A96E] mb-5 group-hover:bg-[#C8A96E]/20 transition-colors duration-300">
+              <div className="w-14 h-14 rounded-xl bg-[#2EC98A]/10 border border-[#2EC98A]/20 flex items-center justify-center text-[#2EC98A] mb-5 group-hover:bg-[#2EC98A]/20 transition-colors duration-300">
                 {f.icon}
               </div>
-              <h3 className="text-white font-semibold text-lg mb-2">{f.title}</h3>
-              <p className="text-[#8B949E] text-sm leading-relaxed">{f.description}</p>
+              <h3 className="text-[#1A2B2B] font-semibold text-lg mb-2">{f.title}</h3>
+              <p className="text-[#6B7B7B] text-sm leading-relaxed">{f.description}</p>
             </div>
           ))}
         </div>
