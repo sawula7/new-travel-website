@@ -1,6 +1,5 @@
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/HeroSection";
-import StatsBar from "@/components/StatsBar";
 import TourCategories from "@/components/TourCategories";
 import FeaturedTours from "@/components/FeaturedTours";
 import WhyChooseUs from "@/components/WhyChooseUs";
@@ -13,7 +12,6 @@ export default function Home() {
     <main className="min-h-screen bg-white">
       <Navbar />
       <HeroSection />
-      <StatsBar />
       <TourCategories />
       <FeaturedTours />
       <WhyChooseUs />
